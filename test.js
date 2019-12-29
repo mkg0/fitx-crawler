@@ -1,3 +1,4 @@
+require('dotenv').config()
 const fitXCrawler = require('./src/index')
 
 async function main(){

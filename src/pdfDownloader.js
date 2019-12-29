@@ -1,8 +1,6 @@
-require('dotenv').config()
 require('isomorphic-fetch')
 const puppeteer = require('puppeteer')
 const {maybeAcceptCookies, maybeLogin, downloadCheckins} = require('./pageActions')
-const crawler = require('./pdfCrawler')
 
 const preparePageForTests = async (page) => {
   const userAgent = 'Mozilla/5.0 (X11; Linux x86_64)' +
