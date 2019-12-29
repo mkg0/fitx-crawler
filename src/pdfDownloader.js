@@ -1,4 +1,3 @@
-require('isomorphic-fetch')
 const puppeteer = require('puppeteer')
 const {maybeAcceptCookies, maybeLogin, downloadCheckins} = require('./pageActions')
 
