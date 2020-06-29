@@ -9,17 +9,18 @@
   },
   "scripts": {
     "start": "node ./test/index.js",
-    "dev": "nodemon ./test/index.js"
+    "dev": "nodemon ./test/index.js",
+    "test": "node ./test.js"
   },
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "date-fns": "^2.8.1",
-    "pdf2json": "^1.1.8",
-    "puppeteer": "^2.0.0"
+    "date-fns": "^2.14.0",
+    "pdf2json": "^1.2.0",
+    "puppeteer": "^4.0.1"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   }
 }
