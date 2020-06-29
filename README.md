@@ -1,5 +1,13 @@
 ## FitX Check-in Crawler
 
+### Install
+
+```sh
+npm install fitx-crawler
+```
+
+### Usage
+
 ```js
 const data = await fitXCrawler({username: '{USER_NAME}', password: '{PASSWORD}'})
 
