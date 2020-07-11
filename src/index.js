@@ -1,9 +1,8 @@
 const pdfCrawler = require('./pdfCrawler')
 const pdfDownloader = require('./pdfDownloader')
 
-function fitXCrawler({username,password}){
-  return pdfDownloader({username, password})
-    .then(path => pdfCrawler({file: path}))
+async function fitXCrawler({ username, password, baseDomain }) {
+  return pdfDownloader({ username, password, baseDomain }).then(pdfCrawler)
 }
 
 module.exports = fitXCrawler

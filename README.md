@@ -9,7 +9,10 @@ npm install fitx-crawler
 ### Usage
 
 ```js
-const data = await fitXCrawler({username: '{USER_NAME}', password: '{PASSWORD}'})
+const data = await fitXCrawler({
+  username: '{USER_NAME}',
+  password: '{PASSWORD}',
+})
 
 /* Sample result
   {
