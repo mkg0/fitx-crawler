@@ -16,7 +16,7 @@
   "private": false,
   "dependencies": {
     "date-fns": "^2.14.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "pdf2json": "^1.2.0"
   },
   "devDependencies": {
